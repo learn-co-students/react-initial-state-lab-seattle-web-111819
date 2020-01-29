@@ -7,7 +7,7 @@ import React, { Component } from 'react'
 class ImageSlider extends Component {
 
     // STEP 4
-    // constructor sets the INITIAL STATE with a property called "currentSlideIndex"
+    // constructor sets the INITIAL STATE with a property called "currentSlideIndex" that starts at 0
     constructor() {
         super()
         this.state = {
