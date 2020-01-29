@@ -1,7 +1,7 @@
 // your Bomb code here!
-import React from 'react'
+import React, { Component } from 'react'
 
-class Bomb extends React.Component {
+class Bomb extends Component {
 
     // constructor sets the INITIAL STATE with a property called "secondsLeft"
     // pass in "props" as an argument since bombs can differ in starting count
@@ -25,4 +25,4 @@ class Bomb extends React.Component {
     }
 }
 
-export default Bomb;
+export default Bomb

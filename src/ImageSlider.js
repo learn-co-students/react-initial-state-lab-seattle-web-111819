@@ -1,10 +1,10 @@
 // your ImageSlider code here!
 
 // STEP 1
-import React from 'react'
+import React, { Component } from 'react'
 
 // STEP 2
-class ImageSlider extends React.Component {
+class ImageSlider extends Component {
 
     // STEP 4
     // constructor sets the INITIAL STATE with a property called "currentSlideIndex"
@@ -24,4 +24,4 @@ class ImageSlider extends React.Component {
 }
 
 // STEP 3
-export default ImageSlider;
+export default ImageSlider
